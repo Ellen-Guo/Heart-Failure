@@ -43,6 +43,7 @@
   <p>
     For this project, the model that was used is Regularized Logistic Regression with Cross-Validation. The Logistic Regression model was optimized using the Iterative Re-weighted Least Squares (IRLS) algorithm. More generally the Logistic Regression model was chosen because the goal of the dataset sourced for this project was to predict a patient’s mortality given information such as clinical, health, and lifestyle information. Since the target of the dataset, a feature called death event, was given as binary values the machine learning problem we will be tackling is a binary classification problem. Therefore, Logistic Regression, a binary classification algorithm, was chosen as the primary algorithm that would be implemented. Regularization and cross-validation were added to prevent the Logistic Regression model from overfitting during training. Overfitting will cause the model to have a high training performance, but then perform poorly on data it has not seen previously during training.
   </p>
-  <p>*** See Further Discussion in Final Report ***</p>
+  <h4>Note: The algorithm is implmented from scratch.</h4>
+  <p>*** See Final Report for Further Discussion ***</p>
 </body>
 </html>
